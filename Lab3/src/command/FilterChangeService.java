@@ -6,6 +6,7 @@ public class FilterChangeService implements Service{
 	public FilterChangeService(Mechanic mechanic) {
 		this.mechanic = mechanic;
 	}
+	
 	public void serviceRequest() {
 		mechanic.changeFilter();	
 	}
